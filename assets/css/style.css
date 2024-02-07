@@ -24,3 +24,16 @@ body {
     max-width: 100%;
     height: auto;
   }
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(27, 21, 21, 0.5);
+  }
+footer > p{
+    left: 50px;
+    text-align: center;
+    text-decoration: solid;
+    text-decoration-color: #fff;
+}
