@@ -29,11 +29,22 @@ footer {
     position: absolute;
     bottom: 0;
     z-index: 2;
-    background-color: rgba(27, 21, 21, 0.5);
+    background-color: rgba(255, 255, 255, 0.5); 
   }
 footer > p{
     left: 50px;
     text-align: center;
     text-decoration: solid;
     text-decoration-color: #fff;
+}
+/* main content */
+main {
+    background-color: #000;
+    /* make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    /* add margin at the top to prevent content from being covered by the header */
+    margin-top: 50px;
+    /* enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
