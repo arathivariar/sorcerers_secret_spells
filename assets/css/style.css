@@ -1,0 +1,10 @@
+#logo-header {
+    display: flex;
+    justify-content: center;
+    max-height: 20%;
+  }
+  
+#logo-image {
+    max-width: 100%;
+    height: auto;
+  }
