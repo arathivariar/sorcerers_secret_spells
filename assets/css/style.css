@@ -24,6 +24,12 @@ body {
     max-width: 100%;
     height: auto;
   }
+h1 {
+    font-family: 'butterfly kids', cursive;
+    font-size: 400%;
+    font-weight: 900;
+    color: #FFF;
+  }
 footer {
     width: 100%;
     position: absolute;
