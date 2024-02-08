@@ -84,6 +84,9 @@ footer {
     z-index: 2;
     background-color: rgba(255, 255, 255, 0.5); 
   }
+.hide {
+    display: none;
+}
 footer > p{
     left: 50px;
     text-align: center;
