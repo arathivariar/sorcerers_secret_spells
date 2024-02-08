@@ -26,6 +26,14 @@ magicEffect.forEach((magicEffect) => {
 });
 
 /**
+ * function to show the welcome screen with the "Let's Begin" button when the window is loaded
+ */
+window.onload = function () {
+    welcomeScreen.classList.remove("hide");
+    quizContainer.classList.add("hide");
+};
+
+/**
  * function to get a random question from the JSON file
  *  */ 
 function getRandomQuestions(questions) {
@@ -39,7 +47,7 @@ fetch('./assets/questions.json')
     .then((data) => questionsArray.push(...getRandomQuestions((data))));
 
 /**
- * function to display a timer and counts down from 15
+ * function to display a timer which counts down from 15
  */
 function timerDisplay() {
     countdown = setInterval(function () {
