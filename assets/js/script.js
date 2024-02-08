@@ -26,12 +26,21 @@ magicEffect.forEach((magicEffect) => {
 });
 
 /**
- * function to show the welcome screen with the "Let's Begin" button when the window is loaded
+ * function to display the welcome screen with the "Let's Begin" button when the window is loaded
  */
 window.onload = function () {
     welcomeScreen.classList.remove("hide");
     quizContainer.classList.add("hide");
 };
+
+/**
+ * function to display the quiz container and the button to start the quiz
+ */
+beginButton.addEventListener("click", function () {
+    welcomeScreen.classList.add("hide");
+    quizContainer.classList.remove("hide");
+    initial();
+});
 
 /**
  * function to get a random question from the JSON file
