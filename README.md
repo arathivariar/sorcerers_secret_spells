@@ -56,7 +56,7 @@ We have tested the website on both Google Chrome (used for the development) and 
 # Credits for Content and Media:
 * Images: [Pexels](https://www.pexels.com/)
 * Website screenshot across devices: [Am I Responsive?](https://ui.dev/amiresponsive)
-* Quiz questions and answers: (https://www.buzzfeed.com/kandycehampton/would-you-be-able-to-make-it-to-your-last-year-of-4mhhmw9a14)
+* Quiz questions and answers: [Buzzfeed](https://www.buzzfeed.com/kandycehampton/would-you-be-able-to-make-it-to-your-last-year-of-4mhhmw9a14)
 * Love Maths project : I used this project as my reference for HTML design and CSS styling of various elements.
 * My Mentor Martina for her guidance and the Slack Community for their support.
 
