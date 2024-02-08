@@ -38,3 +38,16 @@ fetch('./assets/questions.json')
     .then((response) => response.json())
     .then((data) => questionsArray.push(...getRandomQuestions((data))));
 
+/**
+ * function to display a timer and counts down from 15
+ */
+function timerDisplay() {
+    countdown = setInterval(function () {
+        count--;
+        timeLeft.innerHTML = `${count}s`;
+        if (count == 0) {
+            clearInterval(countdown);
+            displayNext();
+        }
+    }, 1500);
+}
