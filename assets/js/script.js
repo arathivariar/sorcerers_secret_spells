@@ -14,3 +14,13 @@ let count = 21;
 let countdown;
 let questionNumber;
 let scoreCount = 0;
+
+/* adding magic effect to the buttons */
+magicEffect.forEach((magicEffect) => {
+    const magicLines = magicEffect.querySelectorAll("rect");
+    const rx = getComputedStyle(magicEffect).borderRadius;
+
+    magicLines.forEach((line) => {
+        line.setAttribute("rx", rx);
+    });
+});
