@@ -1,0 +1,240 @@
+[{
+    "id": "0",
+    "question": "What's the name of the spell that unlocks doors?",
+    "options": [
+        "Alchemy",
+        "Alohomora",
+        "Open Sesame",
+        "Apparate"
+    ],
+    "correct": "Alohomora"
+},
+{
+    "id": "1",
+    "question": "What's the name of the spell that causes immense pain?",
+    "options": [
+        "Crucio",
+        "Cruel",
+        "Inflicto",
+        "Incarcarous"
+    ],
+    "correct": "Crucio"
+
+},
+{
+    "id": "2",
+    "question": "What's the name of the spell that stuns your opponent?",
+    "options": [
+        "Impirium",
+        "Stupefy",
+        "Stunned",
+        "Silencio"
+    ],
+    "correct": "Stupefy"
+
+},
+{
+    "id": "3",
+    "question": "What's the name of the spell that makes objects explode?",
+    "options": [
+        "Boom",
+        "Explodiosous",
+        "Reducio",
+        "Reducto"
+    ],
+    "correct": "Reducto"
+
+},
+{
+    "id": "4",
+    "question": "What's the name of the spell that illuminates the tip of your wand?",
+    "options": [
+        "Lox",
+        "Lumos",
+        "Imperio",
+        "Clap On"
+    ],
+    "correct": "Lumos"
+
+},
+{
+    "id": "5",
+    "question": "What's the name of the spell that turns the illuminated wand tip off?",
+    "options": [
+        "Nox",
+        "No",
+        "Nought",
+        "Clap Off"
+    ],
+    "correct": "Nox"
+
+},
+{
+    "id": "6",
+    "question": "What's the name of the spell that erases someone's memory?",
+    "options": [
+        "Oblivious",
+        "Imperio",
+        "Obliviate",
+        "Incarcarous"
+    ],
+    "correct": "Obliviate"
+
+},
+{
+    "id": "7",
+    "question": "What's the name of the spell that creates fire?",
+    "options": [
+        "Incend",
+        "Incendio",
+        "Arsonino",
+        "Matches"
+    ],
+    "correct": "Incendio"
+
+},
+{
+    "id": "8",
+    "question": "Which spell shoots out water?",
+    "options": [
+        "Aquamenta",
+        "Aguamenti",
+        "Geminio",
+        "Anapneo"
+    ],
+    "correct": "Aguamenti"
+
+},
+{
+    "id": "9",
+    "question": "Which one is the disarming charm?",
+    "options": [
+        "Episkey",
+        "Expelliarmus",
+        "Expecto Patronum",
+        "Expellediomus"
+    ],
+    "correct": "Expelliarmus"
+
+},
+{
+    "id": "10",
+    "question": "Which spell levitates objects?",
+    "options": [
+        "Wingardium Leviosa",
+        "Impervius",
+        "Levitato",
+        "Let it fly!"
+    ],
+    "correct": "Wingardium Leviosa"
+
+},
+{
+    "id": "11",
+    "question": "Which one is the summoning spell?",
+    "options": [
+        "Asico",
+        "Diffindo",
+        "Descendo",
+        "Accio"
+    ],
+    "correct": "Accio"
+
+},
+{
+    "id": "12",
+    "question": "What's the name of the spell that conjures the Patronus charm?",
+    "options": [
+        "Expecto Patronum",
+        "Patronious",
+        "Protego",
+        "Riddikulus"
+    ],
+    "correct": "Expecto Patronum"
+
+},
+{
+    "id": "13",
+    "question": "What is the curse that locks someone's legs?",
+    "options": [
+        "Impedimenta",
+        "Locomotor Mortis",
+        "Piertotum Locomotor",
+        "Locomotora Legs"
+    ],
+    "correct": "Locomotor Mortis"
+
+},
+{
+    "id": "14",
+    "question": "Which spell transforms a Boggart into something humorous?",
+    "options": [
+        "Riddikulus",
+        "Ridiculous",
+        "Reducio",
+        "Expecto Patronum"
+    ],
+    "correct": "Riddikulus"
+
+},
+{
+    "id": "15",
+    "question": "What's the name of the spell that shrinks objects?",
+    "options": [
+        "Downsized",
+        "Reducio",
+        "Pack",
+        "Prior Incantato"
+    ],
+    "correct": "Reducio"
+
+},
+{
+    "id": "16",
+    "question": "Which spell helps you clean things?",
+    "options": [
+        "Bubble Srubble",
+        "Portus",
+        "Scrubio",
+        "Scourgify"
+    ],
+    "correct": "Scourgify"
+
+},
+{
+    "id": "17",
+    "question": "Which spell temporally creates a worthless duplicate of an object?",
+    "options": [
+        "Geminio",
+        "Duplicato",
+        "Obscuro",
+        "Muliprano"
+    ],
+    "correct": "Geminio"
+
+},
+{
+    "id": "18",
+    "question": "Which spell makes your opponent paralyzed?",
+    "options": [
+        "Deletrius",
+        "Petrificius Totalus",
+        "Densaugeo",
+        "Paralization"
+    ],
+    "correct": "Petrificius Totalus"
+
+},
+{
+    "id": "19",
+    "question": "What is the name of the killing spell?",
+    "options": [
+        "Abracadabra",
+        "Anapneo",
+        "Repelo Muggletum",
+        "Avada Kedavra"
+    ],
+    "correct": "Avada Kedavra"
+
+}	
+]
