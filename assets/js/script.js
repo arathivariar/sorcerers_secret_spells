@@ -71,8 +71,32 @@ function timerDisplay() {
 /**
  * function to try the quiz again by hiding the score container and displaying the quiz container
  */
-restart.addEventListener("click", function () {
+tryAgain.addEventListener("click", function () {
     initial();
     quizContainer.classList.remove("hide");
     scoreContainer.classList.add("hide");
 });
+
+/**
+ * function to display the next question, increase the questionNumber by 1 and display the final score if there are no more questions remaining 
+ */
+
+function displayNextQuestion() {
+    questionNumber += 1;
+
+    if (questionNumber == questionsArray.length) {
+        quizContainer.classList.add("hide");
+        scoreContainer.classList.remove("hide");
+        playerScore.innerHTML = "Final Score is " +
+            scoreCount + " out of " + questionNumber;
+    } else {
+        countOfQuestion.innerHTML = questionCount + 1 + " of " + questionsArray.length + " Question";
+
+        quizDisplay(questionNumber);
+        count = 21;
+        clearInterval(countdown);
+        timerDisplay();
+    }
+}
+
+nextButton.addEventListener("click", displayNextQuestion);
