@@ -24,3 +24,17 @@ magicEffect.forEach((magicEffect) => {
         line.setAttribute("rx", rx);
     });
 });
+
+/**
+ * function to get a random question from the JSON file
+ *  */ 
+function getRandomQuestions(questions) {
+    return questions.sort(() => Math.random() - 0.5).slice(0, 20);
+}
+
+const questionsArray = [];
+
+fetch('./assets/questions.json')
+    .then((response) => response.json())
+    .then((data) => questionsArray.push(...getRandomQuestions((data))));
+
