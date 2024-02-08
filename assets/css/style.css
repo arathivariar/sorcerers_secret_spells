@@ -23,6 +23,8 @@ body {
 #logo-image {
     max-width: 100%;
     height: auto;
+    top: 50px;
+    left: 50px;
   }
 h1 {
     font-family: 'butterfly kids', cursive;
@@ -90,6 +92,7 @@ footer > p{
 /* main content */
 main {
     background-color: #000;
+    background-image: "assets/images/main_background.webp";
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     /* add margin at the top to prevent content from being covered by the header */

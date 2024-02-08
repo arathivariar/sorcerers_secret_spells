@@ -68,3 +68,11 @@ function timerDisplay() {
         }
     }, 1500);
 }
+/**
+ * function to try the quiz again by hiding the score container and displaying the quiz container
+ */
+restart.addEventListener("click", function () {
+    initial();
+    quizContainer.classList.remove("hide");
+    scoreContainer.classList.add("hide");
+});
