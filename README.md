@@ -43,6 +43,23 @@ I started with a wireframe on paper with pencil as shown below:
 Testing of the website is done by me, my family, and friends on various devices like mobile phones, tablet, laptop, and desktop. We have verified that the navigation to all the pages, all the links, and the RSVP form (including all the input fields)  are working as expected.
 We have tested the website on both Google Chrome (used for the development) and Microsoft Edge to ensure that the website worked on different browsers.
 
+# Libraries and Programs Used:  
+
+* Code Repository: [GitHub](https://github.com/)
+* Development IDE: [Gitpod](https://www.gitpod.io/)
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+* Convert .jpg images to .webp: [Convertio](https://convertio.co/webp-converter/)
+* Generate favicon: [Favicon](https://favicon.io/favicon-converter/)
+* Validating JSON: [JSONLint]( https://jsonlint.com/)
+
+# Credits for Content and Media:
+* Images: [Pexels](https://www.pexels.com/)
+* Website screenshot across devices: [Am I Responsive?](https://ui.dev/amiresponsive)
+* Quiz questions and answers: (https://www.buzzfeed.com/kandycehampton/would-you-be-able-to-make-it-to-your-last-year-of-4mhhmw9a14)
+* Love Maths project : I used this project as my reference for HTML design and CSS styling of various elements.
+* My Mentor Martina for her guidance and the Slack Community for their support.
+
 # Deployment:
 
 The website is deployed to GitHub pages. The steps to deploy are as follows:
