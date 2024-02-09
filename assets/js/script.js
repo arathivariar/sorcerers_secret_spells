@@ -105,6 +105,32 @@ function quizGenerator() {
     }
 }
 /**
+ * function to check for the correct answer and if right, increment the score
+ */
+function checkAnswer(userOption) {
+    let userSolution = userOption.innerText;
+    let question = document.getElementsByClassName("container-mid")[questionCount];
+    let options = question.querySelectorAll(".option-div");
+
+    if (userSolution === questionsArray[questionCount].correct) {
+        userOption.classList.add("correct");
+        scoreCount++;
+    } else {
+        userOption.classList.add("incorrect");
+
+        options.forEach(function (element) {
+            if (element.innerText === questionsArray[questionCount].correct) {
+                element.classList.add("correct");
+            }
+        });
+    }
+
+    clearInterval(countdown);
+    options.forEach(function (element) {
+        element.disabled = true;
+    });
+}
+/**
  * function to try the quiz again by hiding the score container and displaying the quiz container
  */
 tryAgain.addEventListener("click", function () {
