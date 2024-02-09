@@ -57,7 +57,9 @@ We have tested the website on both Google Chrome (used for the development) and 
 * Images: [Pexels](https://www.pexels.com/)
 * Website screenshot across devices: [Am I Responsive?](https://ui.dev/amiresponsive)
 * Quiz questions and answers: [Buzzfeed](https://www.buzzfeed.com/kandycehampton/would-you-be-able-to-make-it-to-your-last-year-of-4mhhmw9a14)
-* Love Maths project : I used this project as my reference for HTML design and CSS styling of various elements.
+* CSS keyframe for animation: [CSS Tricks]( https://css-tricks.com/snippets/css/keyframe-animation-syntax/)
+* CSS glowing text: [W3 Schools]( https://www.w3schools.com/howto/howto_css_glowing_text.asp)
+* Love Maths project
 * My Mentor Martina for her guidance and the Slack Community for their support.
 
 # Deployment:
