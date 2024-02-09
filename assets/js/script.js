@@ -9,6 +9,8 @@ const tryAgain = document.getElementById("try-again-button");
 const scoreContainer = document.querySelector(".score-container");
 const timeLeft = document.querySelector(".time-left");
 const beginButton = document.getElementById("begin-button");
+const gamesRulesButton = document.getElementById("game-rules-button");
+const gameRulesText = document.getElementById("game-rules-text");
 const welcomeScreen = document.querySelector(".welcome-screen");
 let count = 21;
 let countdown;
@@ -41,7 +43,6 @@ beginButton.addEventListener("click", function () {
     quizContainer.classList.remove("hide");
     initial();
 });
-
 /**
  * function to get a random question from the JSON file
  *  */ 
@@ -162,3 +163,11 @@ function displayNextQuestion() {
 }
 
 nextButton.addEventListener("click", displayNextQuestion);
+/**
+ * function to display the game rules as a pop up text
+ */
+gameRulesButton.addEventListener("click",
+function displayGameRules() {
+    /*var popup = document.getElementById("game-rules-text");*/
+    gameRulesText.classList.toggle("show");
+  })
