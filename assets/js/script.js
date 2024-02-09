@@ -69,6 +69,42 @@ function timerDisplay() {
     }, 1500);
 }
 /**
+ * function to generate the quiz by building random questions using the questionsArray
+ */
+function quizGenerator() {
+    questionsArray.sort(function () {
+        return Math.random() - 0.5;
+    });
+
+    for (let i of questionsArray) {
+        i.options.sort(function () {
+            return Math.random() - 0, 5;
+        });
+        let div = document.createElement("div");
+        div.classList.add("container-mid", "hide");
+
+        questionCount.innerHTML = 1 + " of " + questionsArray.length + " Question";
+
+        let question_DIV = document.createElement("p");
+        question_DIV.classList.add("question");
+        question_DIV.innerHTML = i.question;
+        div.appendChild(question_DIV);
+
+        div.innerHTML += `
+        <button class="option-div" onclick="${assertAnswer.name}(this)">
+        ${i.options[0]}</button>
+        <button class="option-div" onclick="${assertAnswer.name}(this)">
+        ${i.options[1]}</button>
+        <button class="option-div" onclick="${assertAnswer.name}(this)">
+        ${i.options[2]}</button>
+        <button class="option-div" onclick="${assertAnswer.name}(this)">
+        ${i.options[3]}</button>
+        `;
+
+        gameContainer.appendChild(div);
+    }
+}
+/**
  * function to try the quiz again by hiding the score container and displaying the quiz container
  */
 tryAgain.addEventListener("click", function () {
