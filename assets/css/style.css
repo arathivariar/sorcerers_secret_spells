@@ -52,7 +52,8 @@ button {
 }
 #begin-button,
 #try-again-button,
-#game-rules-button
+#game-rules-button,
+#submit-spell-button
 {
     font-size: 1.33em;
     padding: 0.5em 1.8em;
@@ -97,6 +98,13 @@ button {
   align-items: center;
   justify-content: space-between;
   padding: 0.7em 1.8em;
+}
+.submit-spell-form-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 5;
 }
 footer {
     width: 100%;

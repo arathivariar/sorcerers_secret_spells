@@ -11,6 +11,8 @@ const timeLeft = document.querySelector(".time-left");
 const beginButton = document.getElementById("begin-button");
 const gameRulesButton = document.getElementById("game-rules-button");
 const gameRulesText = document.getElementById("game-rules-text");
+const submitSpellButton = document.getElementById("submit-spell-button");
+const submitSpellFormContainer = document.getElementsByClassName("submit-spell-form-container");
 const welcomeScreen = document.querySelector(".welcome-screen");
 let count = 21;
 let countdown;
@@ -194,4 +196,11 @@ gameRulesButton.addEventListener("click",
 function displayGameRules() {
     /*var popup = document.getElementById("game-rules-text");*/
     gameRulesText.classList.toggle("show");
+  })
+/**
+ * function to display the form to submit a spell
+ */
+submitSpellButton.addEventListener("click",
+function displaySubmitSpellForm() {
+    submitSpellFormContainer.classList.toggle("show");
   })

@@ -28,13 +28,16 @@
             <h1>Sorcerer's Secret Spells <i class="fa-solid fa-hat-wizard"></i></h1>
         </div>
         <div class="welcome-screen">
-            <button class="button glow" id="begin-button">
-                Let's Begin!
-            </button>
             <button class="popup glow" id="game-rules-button">
                 Game Rules
                 <span class="popuptext" id="game-rules-text">How to play?</span>
             </button>
+            <button class="button glow" id="begin-button">
+                Let's Begin!
+            </button>
+            <button class="button glow" id="submit-spell-button">
+                Submit A Spell
+            </button> 
         </div>
         <div id="quiz-container">
             <div class="quiz-header">
@@ -58,6 +61,16 @@
             <button class="button glow" id="try-again-button">
                 Try Again
             </button>
+        </div>
+        <div class="submit-spell-form-container hide">
+            <form onsubmit="sendEmail(); reset(); return false;">
+                <h2>Submit A Spell</h2>
+                <input type="text" id="name" placeholder="Enter Your Name Here" required>
+                <input type="email" id="email" placeholder="Enter Your Email Here" required>
+                <input type="text" id="phone" placeholder="Enter Your Phone Number Here" required>
+                <textarea name="message" id="message" rows="4" placeholder="Write your spell here..." required></textarea>
+                <button type="submit" aria-label="Click to Submit Your Spell">Submit Spell</button>
+            </form>
         </div>
     </main>
     <!-- Footer -->
