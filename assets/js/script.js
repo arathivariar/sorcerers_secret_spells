@@ -8,7 +8,7 @@ const quizContainer = document.getElementById("quiz-container");
 const tryAgain = document.getElementById("try-again-button");
 const scoreContainer = document.querySelector(".score-container");
 const timeLeft = document.querySelector(".time-left");
-const beginButton = document.getElementById("begin-button");
+const beginQuizButton = document.getElementById("begin-quiz-button");
 const gameRulesButton = document.getElementById("game-rules-button");
 const gameRulesText = document.getElementById("game-rules-text");
 const submitSpellButton = document.getElementById("submit-spell-button");
@@ -40,7 +40,7 @@ window.onload = function () {
 /**
  * function to display the quiz container and the button to start the quiz
  */
-beginButton.addEventListener("click", function () {
+beginQuizButton.addEventListener("click", function () {
     welcomeScreen.classList.add("hide");
     quizContainer.classList.remove("hide");
     initial();
