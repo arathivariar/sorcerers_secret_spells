@@ -4,6 +4,32 @@
 
 Sorcerer’s Secret Spells is an online quiz on the magical spells used by witches and wizards for making magical things happen. This is the perfect game for all the Potterheads (Harry Potter fans) out there who believe in the magical world and its charms.
 
+# Table of Contents:
+
+- [Design](#design)
+- [Features](#features)
+
+	- [Existing Features](#existing-features) 
+
+        -    [Languages Used](#languages-used)
+
+        -    [Game Rules](#game-rules)
+
+        -    [Begin Quiz](#begin-quiz)  
+
+        -    [Cast Spell](#cast-spell)  
+
+        -   [Footer](#footer)  
+
+   - [Future Features](#future-features)
+- [Testing](#testing)   
+     -    [Validator Testing](#validator-testing)  
+     -    [Bugs](#bugs)
+
+- [Libraries and Programs Used](#libraries-and-programs-used)
+- [Credits for Content and Media](#credits)  
+- [Deployment](#deployment)
+
 # Design:   
 
 I started with a wireframe on paper with pencil as shown below:  
@@ -19,13 +45,11 @@ I started with a wireframe on paper with pencil as shown below:
 # Features
 
 # Existing Features:
-+ Header
-+ Navigation bar
-+ Instructions
-+ Quiz section
-+ Score section
-+ Submit your questions
-+ Social media links in the footer   
++ Game Rules
++ Begin Quiz
++ Score
++ Cast Spell
++ Footer   
 
 
 # Languages Used:
