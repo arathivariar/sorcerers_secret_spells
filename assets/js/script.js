@@ -194,7 +194,6 @@ function quizDisplay(questionCount) {
  */
 gameRulesButton.addEventListener("click",
 function displayGameRules() {
-    /*var popup = document.getElementById("game-rules-text");*/
     gameRulesText.classList.toggle("show");
   })
 /**

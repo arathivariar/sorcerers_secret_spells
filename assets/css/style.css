@@ -58,6 +58,9 @@ button {
     padding: 0.5em 1.8em;
     border-radius: 0.2em;
 }
+#game-rules-text{
+  font-family: 'Times New Roman', Times, serif;
+}
 #try-again-button {
   margin-top: 0.9em;
 }
