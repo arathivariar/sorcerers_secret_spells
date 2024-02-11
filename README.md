@@ -57,6 +57,31 @@ I started with a wireframe on paper with pencil as shown below:
 + HTML5
 + CSS3
 
+# Game Rules 
+
+The quiz has total 20 questions. Each question has 4 options out of which one will be the correct answer. There is a timer of 15 seconds to answer each question before moving onto the next. For each correct answer, you'll get 10 points. At the end, the final score is displayed.
+ If you score above 170, you are an expert witch or wizard.
+If the score is between 70 and 170, you need to practice your spells.
+If you score less than 70, you better learn your spells before you need them!
+Ready for some magical fun?
+![Game Rules](assets/screenshots/game_rules.png) 
+
+# Begin Quiz
+
+This section displays the quiz. The player can see each question and can select his answer from the four options given. There is a timer running for each question. At the end of the quiz, the final score is displayed. The player can retake the quiz, if desired.
+![Begin Quiz](assets/screenshots/begin_quiz.png)  
+
+# Cast Spell
+
+This displays a form where the player can submit a spell along with personal details like name, email address and phone number.
+![Cast Spell]( assets/screenshots/cast_spell.png)
+
+# Footer  
+
+The footer section has a text indicating that this is copyrighted to Sorcerer’s Secret Spells 2024.   
+![Footer](assets/screenshots/footer.png)   
+
+
 # Future Features:  
 
 + Include difficulty levels in the game: easy, medium, difficult.
