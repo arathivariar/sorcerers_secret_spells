@@ -27,14 +27,14 @@ h1 {
     font-size: 200%;
     font-weight: 600;
     color: #FFF;
-    background-color: #800080;
+    background-color: #707070;
     height: fit-content;
   }
 button {
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: #800080;
+    background-color: #707070;
     font-family: 'butterfly kids', cursive;
 }
 .welcome-screen,
@@ -143,7 +143,6 @@ footer > p{
 /* main content */
 main {
     background-color: #000;
-    background-image: url("assets/images/main_background.webp");
 }
 .popup {
   position: relative;
