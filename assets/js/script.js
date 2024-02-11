@@ -194,12 +194,14 @@ function quizDisplay(questionCount) {
  */
 gameRulesButton.addEventListener("click",
 function displayGameRules() {
-    gameRulesText.classList.toggle("show");
-  })
+    welcomeScreen.classList.add("hide");
+    gameRulesText.classList.remove("hide");
+  });
 /**
  * function to display the form to submit a spell
  */
 submitSpellButton.addEventListener("click",
 function displaySubmitSpellForm() {
-    submitSpellForm.classList.toggle("show");
-  })
+    welcomeScreen.classList.add("hide");
+    submitSpellForm.classList.remove("hide");
+  });

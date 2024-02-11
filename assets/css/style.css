@@ -142,7 +142,7 @@ footer > p{
 }
 /* main content */
 main {
-    background-color: #000;
+    background-color: lightgrey;
 }
 .popup {
   position: relative;
@@ -157,7 +157,7 @@ main {
   visibility: hidden;
   width: 100%;
   height: 100vh;
-  background-color: #555;
+  background-color: lightgrey;
   color: #fff;
   text-align: center;
   border-radius: 6px;
