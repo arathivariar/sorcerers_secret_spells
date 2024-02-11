@@ -13,24 +13,22 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
-  }
-#logo-header {
-    display: flex;
-    justify-content: center;
-    max-height: 20%;
-  }
-  
+  }  
 #logo-image {
-    max-width: 100%;
-    height: auto;
+    width: 150px;
+    height: 150px;
     top: 50px;
-    left: 50px;
+    left: 0px;
+    align-self: center;
+    
   }
 h1 {
     font-family: 'butterfly kids', cursive;
-    font-size: 400%;
-    font-weight: 900;
+    font-size: 200%;
+    font-weight: 600;
     color: #FFF;
+    background-color: #800080;
+    height: fit-content;
   }
 button {
     border: none;
