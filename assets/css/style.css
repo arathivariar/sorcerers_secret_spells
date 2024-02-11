@@ -37,6 +37,7 @@ button {
     outline: none;
     cursor: pointer;
     background-color: #800080;
+    font-family: 'butterfly kids', cursive;
 }
 .welcome-screen,
 .score-container

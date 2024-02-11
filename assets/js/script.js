@@ -12,7 +12,7 @@ const beginQuizButton = document.getElementById("begin-quiz-button");
 const gameRulesButton = document.getElementById("game-rules-button");
 const gameRulesText = document.getElementById("game-rules-text");
 const submitSpellButton = document.getElementById("submit-spell-button");
-const submitSpellFormContainer = document.getElementsByClassName("submit-spell-form-container");
+const submitSpellForm= document.getElementById("submit-spell-form");
 const welcomeScreen = document.querySelector(".welcome-screen");
 let count = 21;
 let countdown;
@@ -202,5 +202,5 @@ function displayGameRules() {
  */
 submitSpellButton.addEventListener("click",
 function displaySubmitSpellForm() {
-    submitSpellFormContainer.classList.toggle("show");
+    submitSpellForm.classList.toggle("show");
   })
