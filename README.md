@@ -82,7 +82,7 @@ This displays a form where the player can submit a spell along with personal det
 # Footer  
 
 The footer section has a text indicating that this is copyrighted to Sorcerer’s Secret Spells 2024.   
-  
+
 ![Footer](assets/screenshots/footer.png)   
 
 
@@ -94,7 +94,23 @@ The footer section has a text indicating that this is copyrighted to Sorcerer’
 # Testing:  
 
 Testing of the website is done by me, my family, and friends on various devices like mobile phones, tablet, laptop, and desktop. We have verified that the navigation to all the pages, all the links, and the RSVP form (including all the input fields)  are working as expected.
-We have tested the website on both Google Chrome (used for the development) and Microsoft Edge to ensure that the website worked on different browsers.
+We have tested the website on both Google Chrome (used for the development) and Microsoft Edge to ensure that the website worked on different browsers.   
+
+# Validator Testing:  
+
+# JSHint:   
+
+# HTML:    
+
+# CSS:    
+
+# Lighthouse (Accessibility Audit):    
+
+
+# Bugs:  
+
+
+
 
 # Libraries and Programs Used:  
 
