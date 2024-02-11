@@ -194,7 +194,6 @@ function quizDisplay(questionCount) {
  */
 gameRulesButton.addEventListener("click",
 function displayGameRules() {
-    welcomeScreen.classList.add("hide");
     gameRulesText.classList.remove("hide");
   });
 /**

@@ -50,6 +50,7 @@ button {
     justify-content: center;
 }
 #begin-quiz-button,
+#next-question-button,
 #try-again-button,
 #game-rules-button,
 #submit-spell-button
@@ -66,15 +67,15 @@ button {
   margin-top: 0.9em;
 }
 #quiz-container {
-  height: 35rem;
+  height: 40rem;
   width: 75%;
-  max-width: 40em;
+  max-width: 80em;
   padding: 3.1rem 1.8rem;
   margin: 0 auto;
   border-radius: 0.6em;
-  /*background-image: url(../images/quiz_background.webp);*/
+  background-image: url(../images/quiz_background.webp);
   background-color: lightgrey;
-  opacity: 0.7;
+  opacity: 0.5;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -104,12 +105,14 @@ button {
 }
 .question {
   text-align: center;
+  text-decoration: solid;
+  text-decoration-color: #FFF;
   font-size: 30px;
   width: 100%;
   margin-bottom: 20px;
 }
 .options {
-  font-size: 60px;
+  font-size: 30px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
