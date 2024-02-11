@@ -124,6 +124,54 @@ button {
   width: 100%;
   z-index: 5;
 }
+form {
+  background-color: lightgrey;
+  border-radius: 10px;
+  opacity: 1;
+  z-index: 5;
+  color: white;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 700px;
+}
+form h2 {
+  font-size: 30px;
+  color: #707070;
+  margin: 30px 20px 10px;
+}
+form input, form textarea {
+  margin: 10px 20px;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.734);
+  border-radius: 5px;
+  font-size: 16px;
+}
+textarea {
+  height: 160px;
+}
+form button {
+  padding: 10px;
+  background-color: #707070;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 10px 20px;
+  padding: 10px;
+  width: 200px;
+  margin: 10px auto;
+}
+form button:hover {
+  background: white;
+  text-decoration: underline;
+  transition: 0.2s ease-in-out;
+}
 footer {
     width: 100%;
     position: absolute;
