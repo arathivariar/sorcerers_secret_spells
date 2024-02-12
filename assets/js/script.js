@@ -97,7 +97,7 @@ function quizGenerator() {
             return Math.random() - 0, 5;
         });
         let div = document.createElement("div");
-        div.classList.add("container-mid", "hide");
+        div.classList.add("question-container-mid", "hide");
 
         questionCount.innerHTML = 1 + " of " + questionsArray.length + " Question";
 
@@ -125,7 +125,7 @@ function quizGenerator() {
  */
 function checkAnswer(userOption) {
     let userSolution = userOption.innerText;
-    let question = document.getElementsByClassName("container-mid")[questionCount];
+    let question = document.getElementsByClassName("question-container-mid")[questionCount];
     let options = question.querySelectorAll(".option-div");
 
     if (userSolution === questionsArray[questionCount].correct) {
@@ -182,7 +182,7 @@ nextButton.addEventListener("click", displayNextQuestion);
  * function to display the quiz
  */
 function quizDisplay(questionCount) {
-    let quizCards = document.querySelectorAll(".container-mid");
+    let quizCards = document.querySelectorAll(".question-container-mid");
 
     quizCards.forEach(function (card) {
         card.classList.add("hide");
