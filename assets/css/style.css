@@ -15,8 +15,8 @@ body {
     flex-direction: column;
   }  
 #logo-image {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     top: 50px;
     left: 0px;
     align-self: center;
@@ -27,7 +27,7 @@ h1 {
     font-size: 200%;
     font-weight: 600;
     color: #FFF;
-    background-color: #707070;
+    background-color: #000;
     height: fit-content;
   }
 button {
@@ -279,10 +279,10 @@ main {
 }
 @keyframes glow {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #d4af37, 0 0 40px #d4af37, 0 0 50px #d4af37, 0 0 60px #d4af37, 0 0 70px #d4af37;
   }
   to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    text-shadow: 0 0 20px #fff, 0 0 30px #FFD700, 0 0 40px #FFD700, 0 0 50px #FFD700, 0 0 60px #FFD700, 0 0 70px #FFD700, 0 0 80px #FFD700;
   }
 }
 @keyframes fadeInAnimation {
