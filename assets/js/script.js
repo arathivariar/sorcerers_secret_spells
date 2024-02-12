@@ -1,6 +1,5 @@
 /* Declaring the constants and variables */
 const questionCount = document.querySelector(".number-of-question");
-const magicEffect = document.querySelectorAll(".magic-effect");
 const nextButton = document.getElementById("next-question-button");
 const yourScore = document.getElementById("your-score");
 const quizContainer = document.getElementById("quiz-container");
@@ -19,18 +18,8 @@ let countdown;
 let questionNumber;
 let scoreCount = 0;
 
-/* adding magic effect to the buttons */
-magicEffect.forEach((magicEffect) => {
-    const magicLines = magicEffect.querySelectorAll("rect");
-    const rx = getComputedStyle(magicEffect).borderRadius;
-
-    magicLines.forEach((line) => {
-        line.setAttribute("rx", rx);
-    });
-});
-
 /**
- * function to display the welcome screen with the "Let's Begin" button when the window is loaded
+ * function to display the welcome screen when the window is loaded
  */
 window.onload = function () {
     welcomeScreen.classList.remove("hide");
