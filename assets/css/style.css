@@ -224,44 +224,50 @@ footer > p{
 main {
     background-color: lightgrey;
 }
-.popup {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-.popup .popuptext {
-  visibility: hidden;
+.rules-container {
+  position: fixed;
   width: 100%;
   height: 100vh;
-  background-color: lightgrey;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.2s;
 }
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-.popup .show {
+
+.rules-container .rules-active {
   visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  opacity: 1;
+}
+.rules {
+  background-color: white;
+  width: 500px;
+  height: 450px;
+  border-radius: 6px;
+}
+.rules h3 {
+  text-align: center;
+  border: black solid 1px;
+  color: black;
+  border-radius: 6px;
+  margin: 6px;
+  padding: 16px;
+}
+.rules-close {
+  cursor: pointer;
+}
+.rules-close i {
+    font-weight: 300;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
 }
 .glow {
   font-size: 80px;
