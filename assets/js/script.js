@@ -2,7 +2,7 @@
 const questionCount = document.querySelector(".number-of-question");
 const magicEffect = document.querySelectorAll(".magic-effect");
 const nextButton = document.getElementById("next-question-button");
-const playerScore = document.getElementById("player-score");
+const yourScore = document.getElementById("your-score");
 const quizContainer = document.getElementById("quiz-container");
 const questionContainer = document.getElementById("question-container");
 const tryAgain = document.getElementById("try-again-button");
@@ -165,7 +165,7 @@ function displayNextQuestion() {
     if (questionNumber == questionsArray.length) {
         quizContainer.classList.add("hide");
         scoreContainer.classList.remove("hide");
-        playerScore.innerHTML = "Final Score is " +
+        yourScore.innerHTML = "Final Score is " +
             scoreCount + " out of " + questionNumber;
     } else {
         questionCount.innerHTML = questionNumber + 1 + " of " + questionsArray.length + " Question";
