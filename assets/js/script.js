@@ -125,17 +125,17 @@ function quizGenerator() {
  */
 function checkAnswer(userOption) {
     let userSolution = userOption.innerText;
-    let question = document.getElementsByClassName("question-container-mid")[questionCount];
+    let question = document.getElementsByClassName("question-container-mid")[questionNumber];
     let options = question.querySelectorAll(".option-div");
 
-    if (userSolution === questionsArray[questionCount].correct) {
+    if (userSolution === questionsArray[questionNumber].correct) {
         userOption.classList.add("correct");
         scoreCount++;
     } else {
         userOption.classList.add("incorrect");
 
         options.forEach(function (element) {
-            if (element.innerText === questionsArray[questionCount].correct) {
+            if (element.innerText === questionsArray[questionNumber].correct) {
                 element.classList.add("correct");
             }
         });
@@ -168,7 +168,7 @@ function displayNextQuestion() {
         playerScore.innerHTML = "Final Score is " +
             scoreCount + " out of " + questionNumber;
     } else {
-        questionCount.innerHTML = questionCount + 1 + " of " + questionsArray.length + " Question";
+        questionCount.innerHTML = questionNumber + 1 + " of " + questionsArray.length + " Question";
 
         quizDisplay(questionNumber);
         count = 21;
@@ -181,13 +181,13 @@ nextButton.addEventListener("click", displayNextQuestion);
 /**
  * function to display the quiz
  */
-function quizDisplay(questionCount) {
+function quizDisplay(questionNumber) {
     let quizCards = document.querySelectorAll(".question-container-mid");
 
     quizCards.forEach(function (card) {
         card.classList.add("hide");
     });
-    quizCards[questionCount].classList.remove("hide");
+    quizCards[questionNumber].classList.remove("hide");
 }
 /**
  * function to display the game rules as a pop up text
