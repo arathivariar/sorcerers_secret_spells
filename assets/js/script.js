@@ -1,10 +1,10 @@
 /* Declaring the constants and variables */
 const questionCount = document.querySelector(".number-of-question");
-const gameContainer = document.getElementById("question-container");
 const magicEffect = document.querySelectorAll(".magic-effect");
 const nextButton = document.getElementById("next-question-button");
 const playerScore = document.getElementById("player-score");
 const quizContainer = document.getElementById("quiz-container");
+const questionContainer = document.getElementById("question-container");
 const tryAgain = document.getElementById("try-again-button");
 const scoreContainer = document.querySelector(".score-container");
 const timeLeft = document.querySelector(".time-left");
@@ -49,7 +49,7 @@ beginQuizButton.addEventListener("click", function () {
  * function to initially clear the quiz and restart
  */
 function initial() {
-    gameContainer.innerHTML = "";
+    questionContainer.innerHTML = "";
     questionNumber = 0;
     scoreCount = 0;
     count = 21;
@@ -117,7 +117,7 @@ function quizGenerator() {
         ${i.options[3]}</button>
         `;
 
-        gameContainer.appendChild(div);
+        questionContainer.appendChild(div);
     }
 }
 /**
@@ -126,7 +126,7 @@ function quizGenerator() {
 function checkAnswer(userOption) {
     let userSolution = userOption.innerText;
     let question = document.getElementsByClassName("question-container-mid")[questionCount];
-    let options = question.querySelectorAll(".option-div");
+    let options = question.querySelectorAll(".options-div");
 
     if (userSolution === questionsArray[questionCount].correct) {
         userOption.classList.add("correct");
