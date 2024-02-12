@@ -126,7 +126,7 @@ function quizGenerator() {
 function checkAnswer(userOption) {
     let userSolution = userOption.innerText;
     let question = document.getElementsByClassName("question-container-mid")[questionCount];
-    let options = question.querySelectorAll(".options-div");
+    let options = question.querySelectorAll(".option-div");
 
     if (userSolution === questionsArray[questionCount].correct) {
         userOption.classList.add("correct");
@@ -168,7 +168,7 @@ function displayNextQuestion() {
         playerScore.innerHTML = "Final Score is " +
             scoreCount + " out of " + questionNumber;
     } else {
-        countOfQuestion.innerHTML = questionCount + 1 + " of " + questionsArray.length + " Question";
+        questionCount.innerHTML = questionCount + 1 + " of " + questionsArray.length + " Question";
 
         quizDisplay(questionNumber);
         count = 21;
