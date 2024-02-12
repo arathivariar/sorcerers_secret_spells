@@ -14,7 +14,7 @@ const gameRulesText = document.getElementById("game-rules-text");
 const submitSpellButton = document.getElementById("submit-spell-button");
 const submitSpellForm= document.getElementById("submit-spell-form");
 const welcomeScreen = document.querySelector(".welcome-screen");
-let count = 21;
+let count = 11;
 let countdown;
 let questionNumber;
 let scoreCount = 0;
@@ -52,7 +52,7 @@ function initial() {
     questionContainer.innerHTML = "";
     questionNumber = 0;
     scoreCount = 0;
-    count = 21;
+    count = 11;
     clearInterval(countdown);
     timerDisplay();
     quizGenerator();
@@ -72,7 +72,7 @@ fetch('./assets/questions.json')
     .then((data) => questionsArray.push(...getRandomQuestions((data))));
 
 /**
- * function to display a timer which counts down from 15
+ * function to display a timer which counts down from 10
  */
 function timerDisplay() {
     countdown = setInterval(function () {
@@ -82,7 +82,7 @@ function timerDisplay() {
             clearInterval(countdown);
             displayNextQuestion();
         }
-    }, 1500);
+    }, 1000);
 }
 /**
  * function to generate the quiz by building random questions using the questionsArray
@@ -171,7 +171,7 @@ function displayNextQuestion() {
         questionCount.innerHTML = questionNumber + 1 + " of " + questionsArray.length + " Question";
 
         quizDisplay(questionNumber);
-        count = 21;
+        count = 11;
         clearInterval(countdown);
         timerDisplay();
     }
