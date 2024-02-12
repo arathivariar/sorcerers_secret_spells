@@ -25,9 +25,8 @@ window.onload = function () {
     welcomeScreen.classList.remove("hide");
     quizContainer.classList.add("hide");
 };
-
 /**
- * function to display the quiz container and the button to start the quiz
+ * function to display the quiz container and its content
  */
 beginQuizButton.addEventListener("click", function () {
     welcomeScreen.classList.add("hide");
@@ -55,7 +54,6 @@ function getRandomQuestions(questions) {
 }
 
 const questionsArray = [];
-
 fetch('./assets/questions.json')
     .then((response) => response.json())
     .then((data) => questionsArray.push(...getRandomQuestions((data))));
