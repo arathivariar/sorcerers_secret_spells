@@ -111,19 +111,22 @@ button {
   width: 100%;
   margin-bottom: 20px;
 }
-.options {
-  font-size: 30px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-
+.option-div {
+  font-size: 0.9em;
+  font-weight: bold;
+  width: 100%;
+  padding: 1em;
+  margin: 0.3em 0;
+  text-align: left;
+  outline: none;
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid white;
+  border-radius: 0.3em;
 }
-.options-div:not(:disabled):hover {
+.option-div:not(:disabled):hover {
   background: rgba(255, 255, 255, 0.6);
 }
-.options-div:disabled {
+.option-div:disabled {
   color: black;
   cursor: not-allowed;
 }
