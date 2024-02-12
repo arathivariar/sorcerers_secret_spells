@@ -111,6 +111,7 @@ button {
   text-align: center;
   text-decoration: solid;
   text-decoration-color: #FFF;
+  background: rgba(255, 255, 255, 0.3);
   font-size: 30px;
   width: 100%;
   margin-bottom: 20px;
