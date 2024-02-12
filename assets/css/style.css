@@ -87,7 +87,7 @@ button {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  z-index: 99;
+  z-index: 5;
   animation: fadeInAnimation ease 1s;
 }
 .quiz-header {
