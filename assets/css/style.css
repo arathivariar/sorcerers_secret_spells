@@ -137,6 +137,10 @@ button {
   color: green;
   border-color: green;
 }
+#your-score {
+  font-size: 1.5em;
+  color: white;
+}
 .submit-spell-form-container{
   display: flex;
   align-items: center;
