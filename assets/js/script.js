@@ -86,7 +86,7 @@ function quizGenerator() {
         let div = document.createElement("div");
         div.classList.add("question-container-mid", "hide");
 
-        questionCount.innerHTML = 1 + " of " + questionsArray.length + " Question";
+        questionCount.innerHTML = 1 + " of " + questionsArray.length + " questions";
 
         let question_DIV = document.createElement("p");
         question_DIV.classList.add("question");
@@ -155,7 +155,7 @@ function displayNextQuestion() {
         yourScore.innerHTML = "Your score is " +
             scoreCount + " out of " + questionNumber;
     } else {
-        questionCount.innerHTML = questionNumber + 1 + " of " + questionsArray.length + " Question";
+        questionCount.innerHTML = questionNumber + 1 + " of " + questionsArray.length + " questions";
 
         quizDisplay(questionNumber);
         count = 11;

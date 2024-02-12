@@ -72,16 +72,16 @@ button {
 }
 #quiz-container {
   height: 40rem;
-  width: 75%;
+  width: 50%;
   max-width: 80em;
   padding: 3.1rem 1.8rem;
   margin: 0 auto;
   border-radius: 0.6em;
   background-image: url(../images/quiz_background.webp);
+  background-size: cover;
   background-color: lightgrey;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -111,7 +111,6 @@ button {
   text-align: center;
   text-decoration: solid;
   text-decoration-color: #FFF;
-  background: rgba(255, 255, 255, 0.3);
   font-size: 30px;
   width: 100%;
   margin-bottom: 20px;
