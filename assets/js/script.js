@@ -165,7 +165,7 @@ function displayNextQuestion() {
     if (questionNumber == questionsArray.length) {
         quizContainer.classList.add("hide");
         scoreContainer.classList.remove("hide");
-        yourScore.innerHTML = "Final Score is " +
+        yourScore.innerHTML = "Your score is " +
             scoreCount + " out of " + questionNumber;
     } else {
         questionCount.innerHTML = questionNumber + 1 + " of " + questionsArray.length + " Question";

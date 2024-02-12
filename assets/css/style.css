@@ -63,6 +63,10 @@ button {
   font-family: 'Times New Roman', Times, serif;
   display:list-item;
 }
+#next-question-button{
+  /* align the next button to th centre of the container */
+  align-items: center;
+}
 #try-again-button {
   margin-top: 0.9em;
 }

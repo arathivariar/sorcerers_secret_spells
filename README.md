@@ -128,7 +128,7 @@ We have tested the website on both Google Chrome (used for the development) and 
 * Quiz questions and answers: [Buzzfeed](https://www.buzzfeed.com/kandycehampton/would-you-be-able-to-make-it-to-your-last-year-of-4mhhmw9a14)
 * CSS keyframe for animation: [CSS Tricks]( https://css-tricks.com/snippets/css/keyframe-animation-syntax/)
 * CSS glowing text: [W3 Schools]( https://www.w3schools.com/howto/howto_css_glowing_text.asp)
-* Basic structure of Sorcerer’s Secret Spells is built with the help of this video which shows how to create a quiz with HTML, CSS, and JavaScript. I have used this as a reference while developing my website: [Dear Programmer(https://www.youtube.com/watch?v=WiLTsxjCmWQ)   
+* Basic structure of Sorcerer’s Secret Spells is built with the help of this video which shows how to create a quiz with HTML, CSS, and JavaScript. I have used this as a reference while developing my website: [Dear Programmer](https://www.youtube.com/watch?v=WiLTsxjCmWQ)   
 * Love Maths project
 * My Mentor Martina for her guidance and the Slack Community for their support.
 
