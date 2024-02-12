@@ -120,6 +120,23 @@ button {
   margin-bottom: 20px;
 
 }
+.options-div:not(:disabled):hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+.options-div:disabled {
+  color: black;
+  cursor: not-allowed;
+}
+.incorrect {
+  background-color: lightcoral;
+  color: red;
+  border-color: red;
+}
+.correct {
+  background-color: lightgreen;
+  color: green;
+  border-color: green;
+}
 .submit-spell-form-container{
   display: flex;
   align-items: center;
