@@ -3,8 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-  }
-  
+  } 
 body {
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/main_background.webp);
@@ -20,7 +19,6 @@ body {
     top: 50px;
     left: 0px;
     align-self: center;
-    
   }
 h1 {
     font-family: 'butterfly kids', cursive;
@@ -87,6 +85,10 @@ button {
   top: 50%;
   left: 50%;
   z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   animation: fadeInAnimation ease 1s;
 }
 .quiz-header {
@@ -232,6 +234,7 @@ main {
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   visibility: hidden;
@@ -295,20 +298,30 @@ main {
   0% {opacity: 0;}
   100% {opacity: 1;}
 }
-/* for large screens up to 750px */
-@media screen and (max-width: 750px) {
+/* media query: for screens up to 768px */
+@media (max-width: 768px) {
+  #body {
+      /* Change to contain for smaller screens */
+      background-size: cover; 
+  }
+  #quiz-container{
+    /* Change to contain for smaller screens */
+    background-size: cover;
+  }
   #logo-image {
-      max-width: 70%;
-      height: auto;
-  }
+    max-width: 70%;
+    height: auto;
 }
-/* for small screens from 380px and down */
-@media screen and (max-width: 450px) {
-  #quiz-container {
-      padding: 2rem 1rem;
-      height: 40rem;
-  }
-  footer {
-      height: 2rem;
-  }
+}
+/* media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+}
+
+/* media query: large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    
+}
+/* media query: large devices 1200px and up */
+@media screen and (min-width: 1200px) {
+
 }
