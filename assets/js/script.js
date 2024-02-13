@@ -8,12 +8,9 @@ const tryAgain = document.getElementById("try-again-button");
 const scoreContainer = document.querySelector(".score-container");
 const timeLeft = document.querySelector(".time-left");
 const beginQuizButton = document.getElementById("begin-quiz-button");
-const gameRulesButton = document.getElementById("game-rules-button");
 const submitSpellButton = document.getElementById("submit-spell-button");
 const submitSpellForm= document.getElementById("submit-spell-form");
 const welcomeScreen = document.querySelector(".welcome-screen");
-var rulesContainer = document.querySelector('.rules-container');
-var rulesClose = document.querySelector('.rules-close');
 let count = 11;
 let countdown;
 let questionNumber;
@@ -177,18 +174,6 @@ function quizDisplay(questionNumber) {
     });
     quizCards[questionNumber].classList.remove("hide");
 }
-/**
- * function to display the game rules
- */
-gameRulesButton.addEventListener('click',function(){
-    rulesContainer.classList.add('rules-active');
-});
-/**
- * function to close the game rules
- */
-rulesClose.addEventListener('click', function(){
-    rulesContainer.classList.remove('rules-active');
-});
 /**
  * function to display the form to submit a spell
  */

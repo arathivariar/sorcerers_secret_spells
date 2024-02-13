@@ -222,50 +222,25 @@ footer > p{
 main {
     background-color: lightgrey;
 }
-.rules-container {
+#game-rules {
   position: fixed;
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.2s;
-}
-
-.rules-container .rules-active {
-  visibility: visible;
-  opacity: 1;
-}
-.rules {
-  background-color: white;
   width: 500px;
   height: 450px;
-  border-radius: 6px;
+  bottom: 40%;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  box-sizing:border-box;
+  padding: 10px 10px 25px 20px;
+  background-color: lightgrey;
+  color: #29323b;
+  text-align: start;
+  border-radius: 4px;
+  height: fit-content;
+  width:fit-content;
 }
-.rules h3 {
-  text-align: center;
-  border: black solid 1px;
-  color: black;
-  border-radius: 6px;
-  margin: 6px;
-  padding: 16px;
-}
-.rules-close {
-  cursor: pointer;
-}
-.rules-close i {
-    font-weight: 300;
-    font-size: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
+#game rules > h3 {
+  margin-top: 50px;
 }
 .glow {
   font-size: 80px;
