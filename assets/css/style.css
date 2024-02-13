@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'butterfly kids', cursive;
   } 
 body {
     height: 100vh;
@@ -50,16 +50,11 @@ button {
 #begin-quiz-button,
 #next-question-button,
 #try-again-button,
-#game-rules-button,
 #submit-spell-button
 {
     font-size: 1.33em;
     padding: 0.5em 1.8em;
     border-radius: 0.2em;
-}
-#game-rules-text{
-  font-family: 'Times New Roman', Times, serif;
-  display:list-item;
 }
 #next-question-button{
   /* align the next button to th centre of the container */
@@ -235,6 +230,7 @@ main {
   background-color: lightgrey;
   color: #29323b;
   text-align: start;
+  font-family:'butterfly kids', cursive;
   border-radius: 4px;
   height: fit-content;
   width:fit-content;
