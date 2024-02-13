@@ -29,6 +29,7 @@ window.onload = function () {
  */
 beginQuizButton.addEventListener("click", function () {
     welcomeScreen.classList.add("hide");
+    gameRulesText.classList.add("hide");
     quizContainer.classList.remove("hide");
     initial();
 });
