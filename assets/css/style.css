@@ -85,10 +85,6 @@ button {
   top: 50%;
   left: 50%;
   z-index: 5;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   animation: fadeInAnimation ease 1s;
 }
 .quiz-header {
@@ -234,7 +230,6 @@ main {
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   visibility: hidden;
