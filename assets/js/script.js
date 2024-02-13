@@ -9,7 +9,8 @@ const scoreContainer = document.querySelector(".score-container");
 const timeLeft = document.querySelector(".time-left");
 const beginQuizButton = document.getElementById("begin-quiz-button");
 const submitSpellButton = document.getElementById("submit-spell-button");
-const submitSpellForm= document.getElementById("submit-spell-form");
+const submitSpellForm = document.getElementById("submit-spell-form");
+const gameRulesText = document.getElementById("game-rules");
 const welcomeScreen = document.querySelector(".welcome-screen");
 let count = 11;
 let countdown;
@@ -180,5 +181,6 @@ function quizDisplay(questionNumber) {
 submitSpellButton.addEventListener("click",
 function displaySubmitSpellForm() {
     welcomeScreen.classList.add("hide");
+    gameRulesText.classList.add("hide");
     submitSpellForm.classList.remove("hide");
   });
