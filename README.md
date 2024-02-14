@@ -1,6 +1,10 @@
 # Sorcerer’s Secret Spells
 
-Sorcerer’s Secret Spells is an online quiz on the magical spells used by witches and wizards for making magical things happen. This is the perfect game for all the Potterheads (Harry Potter fans) out there who believe in the magical world and its charms.
+Sorcerer’s Secret Spells is an online quiz on the magical spells used by witches and wizards for making magical things happen. This is the perfect game for all the Potterheads (Harry Potter fans) out there who believe in the magical world and its charms.   
+
+![Website View](assets/screenshots/website_on_various_devices.png)    
+
+
 
 # Table of Contents:
 
@@ -32,7 +36,7 @@ Sorcerer’s Secret Spells is an online quiz on the magical spells used by witch
 
 I started with a wireframe on paper with pencil as shown below:  
 
-![Wireframe Design](assets/screenshots/wireframe_design.jpg)  
+![Wireframe Design](assets/screenshots/wireframe_design.png)  
 
 
 **Text & Background colour:**
@@ -98,17 +102,26 @@ We have tested the website on both Google Chrome (used for the development) and 
 
 # JSHint:   
 JavaScript: No errors were returned when passing through the JSHint validator.    
+
+
 ![JSHint validation](assets/screenshots/js_validation.png)    
 
 # HTML:  
 HTML: No errors were returned when passing through the official W3C validator.    
+
+
 ![HTML validation](assets/screenshots/html_validation.png)    
 
 # CSS:   
 CSS: No errors were found when passing through the official (Jigsaw) validator.    
+
+
 ![CSS validation](assets/screenshots/css_validation.png)    
 
-# Lighthouse (Accessibility Audit):     
+# Lighthouse (Accessibility Audit):    
+Lighthouse score on various categories was checked using Developer Tools.    
+
+
 ![Lighthouse result](assets/screenshots/lighthouse_score.png)     
 
 _Note:_ The performance score of Lighthouse analysis is slightly lower because of the glow effects applied on various elements for a magical effect. As this is a magic related quiz, I felt the glow effect added to its theme and decided to keep it. The website would score a higher value once the glow effect is removed from all components. Other than the performance, everything else is great.    
