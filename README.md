@@ -111,6 +111,8 @@ CSS: No errors were found when passing through the official (Jigsaw) validator.
 # Lighthouse (Accessibility Audit):     
 ![Lighthouse result](assets/screenshots/lighthouse_score.png)     
 
+_Note:_ The performance score of Lighthouse analysis is slightly lower because of the glow effects applied on various elements for a magical effect. As this is a magic related quiz, I felt the glow effect added to its theme and decided to keep it. The website would score a higher value once the glow effect is removed from all components. Other than the performance, everything else is great.    
+
 
 # Bugs:  
 
