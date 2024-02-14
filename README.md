@@ -1,7 +1,5 @@
 # Sorcerer’s Secret Spells
 
-# Quiz On Magical Spells
-
 Sorcerer’s Secret Spells is an online quiz on the magical spells used by witches and wizards for making magical things happen. This is the perfect game for all the Potterheads (Harry Potter fans) out there who believe in the magical world and its charms.
 
 # Table of Contents:
@@ -59,17 +57,17 @@ I started with a wireframe on paper with pencil as shown below:
 
 # Game Rules 
 
-The quiz has total 20 questions. Each question has 4 options out of which one will be the correct answer. There is a timer of 15 seconds to answer each question before moving onto the next. For each correct answer, you'll get 10 points. At the end, the final score is displayed.
- If you score above 170, you are an expert witch or wizard.
-If the score is between 70 and 170, you need to practice your spells.
-If you score less than 70, you better learn your spells before you need them!
+The quiz has total 20 questions. Each question has 4 options out of which one will be the correct answer. There is a timer of 10 seconds to answer each question before moving onto the next. For each correct answer, you'll get 1 point. At the end, the final score is displayed.
+If you score above 17, you are an expert witch or wizard.
+If the score is between 7 and 17, you need to practice your spells.
+If you score less than 7, you better learn your spells before you need them!
 Ready for some magical fun?   
 
 ![Game Rules](assets/screenshots/game_rules.png) 
 
 # Begin Quiz
 
-This section displays the quiz. The player can see each question and can select his answer from the four options given. There is a timer running for each question. At the end of the quiz, the final score is displayed. The player can retake the quiz, if desired.   
+This section displays the quiz. The player can see each question and can select his/her answer from the four options given. There is a timer running for each question. At the end of the quiz, the final score is displayed. The player can retake the quiz, if desired.   
 
 ![Begin Quiz](assets/screenshots/begin_quiz.png)  
 
@@ -93,7 +91,7 @@ The footer section has a text indicating that this is copyrighted to Sorcerer’
 
 # Testing:  
 
-Testing of the website is done by me, my family, and friends on various devices like mobile phones, tablet, laptop, and desktop. We have verified that the navigation to all the pages, all the links, and the RSVP form (including all the input fields)  are working as expected.
+Testing of the website is done by me, my family, and friends on various devices like mobile phones, tablet, laptop, and desktop. We have verified that the navigation to all the pages, all the links, and the form (including all the input fields) are working as expected.
 We have tested the website on both Google Chrome (used for the development) and Microsoft Edge to ensure that the website worked on different browsers.   
 
 # Validator Testing:  
@@ -109,7 +107,8 @@ We have tested the website on both Google Chrome (used for the development) and 
 
 # Bugs:  
 
-
+During the development phase, there were a few minor bugs related to the look and feel of the website and JavaScript functionalities like toggling between hide and display of various elements. I was able to fix all the bugs through trial and error using the Development Tools. I also Googled whenever I wanted to implement features such as CSS properties like glowing text, keyframes, flexbox etc. I have given due credit to all the content and media in the credits section of this document.
+There are no unfixed bugs existing in this website as per my knowledge.    
 
 
 # Libraries and Programs Used:  
