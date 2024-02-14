@@ -34,9 +34,13 @@ Sorcerer’s Secret Spells is an online quiz on the magical spells used by witch
 
 # Design:   
 
-I started with a wireframe on paper with pencil as shown below:  
+I started with wireframe designs on paper with pencil as shown below:  
 
-![Wireframe Design](assets/screenshots/wireframe_design.png)  
+![Home Page Wireframe Design](assets/screenshots/home_page_design.jpg)    
+
+![Quiz Wireframe Design](assets/screenshots/quiz_design.jpg)    
+
+![Submit Spell Wireframe Design](assets/screenshots/submit_spell_design.jpg)    
 
 
 **Text & Background colour:**
@@ -49,7 +53,6 @@ I started with a wireframe on paper with pencil as shown below:
 # Existing Features:
 + Game Rules
 + Begin Quiz
-+ Score
 + Cast Spell
 + Footer   
 
