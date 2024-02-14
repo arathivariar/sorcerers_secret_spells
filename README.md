@@ -97,12 +97,19 @@ We have tested the website on both Google Chrome (used for the development) and 
 # Validator Testing:  
 
 # JSHint:   
+JavaScript: No errors were returned when passing through the JSHint validator.    
+![JSHint validation](assets/screenshots/js_validation.png)    
 
-# HTML:    
+# HTML:  
+HTML: No errors were returned when passing through the official W3C validator.    
+![HTML validation](assets/screenshots/html_validation.png)    
 
-# CSS:    
+# CSS:   
+CSS: No errors were found when passing through the official (Jigsaw) validator.    
+![CSS validation](assets/screenshots/css_validation.png)    
 
-# Lighthouse (Accessibility Audit):    
+# Lighthouse (Accessibility Audit):     
+![Lighthouse result](assets/screenshots/lighthouse_score.png)     
 
 
 # Bugs:  

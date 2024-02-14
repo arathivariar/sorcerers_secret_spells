@@ -27,6 +27,7 @@ h1 {
     color: #FFF;
     background-color: #000;
     height: fit-content;
+    text-align: center;
   }
 button {
     border: none;
