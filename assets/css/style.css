@@ -14,8 +14,8 @@ body {
     flex-direction: column;
   }  
 #logo-image {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     top: 50px;
     left: 0px;
     align-self: center;
@@ -58,7 +58,8 @@ button {
 }
 #next-question-button{
   display: flex;
-  justify-content: flex-end;
+  width: 100%;
+  justify-content: center;
 }
 #try-again-button {
   margin-top: 0.9em;
