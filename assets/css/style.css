@@ -279,16 +279,28 @@ main {
     max-width: 70%;
     height: auto;
 }
+  #h1{
+    font-size: 100%;
+  }
 }
 /* media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+  #body {
+    /* Change to contain */
+    background-size: cover; 
 }
-
+}
 /* media query: large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    
+  #body {
+    /* Change to contain */
+    background-size: cover; 
+}
 }
 /* media query: large devices 1200px and up */
 @media screen and (min-width: 1200px) {
-
+  #body {
+    /* Change to contain */
+    background-size: cover; 
+}
 }
