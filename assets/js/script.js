@@ -1,10 +1,10 @@
-/* Declaring the constants and variables */
+/* declaring constants and variables */
 const questionCount = document.querySelector(".number-of-question");
 const nextButton = document.getElementById("next-question-button");
 const yourScore = document.getElementById("your-score");
+const tryAgain = document.getElementById("try-again-button");
 const quizContainer = document.getElementById("quiz-container");
 const questionContainer = document.getElementById("question-container");
-const tryAgain = document.getElementById("try-again-button");
 const scoreContainer = document.querySelector(".score-container");
 const timeLeft = document.querySelector(".time-left");
 const beginQuizButton = document.getElementById("begin-quiz-button");
@@ -23,6 +23,9 @@ let scoreCount = 0;
 window.onload = function () {
     welcomeScreen.classList.remove("hide");
     quizContainer.classList.add("hide");
+    questionContainer.classList.add("hide");
+    nextButton.classList.add("hide");
+
 };
 /**
  * function to display the quiz container and its content
@@ -48,7 +51,7 @@ function initial() {
 }
 /**
  * function to get a random question from the JSON file
- *  */ 
+*/ 
 function getRandomQuestions(questions) {
     return questions.sort(() => Math.random() - 0.5).slice(0, 20);
 }
@@ -60,7 +63,7 @@ fetch('./assets/questions.json')
 
 /**
  * function to display a timer which counts down from 10
- */
+*/
 function timerDisplay() {
     countdown = setInterval(function () {
         count--;
