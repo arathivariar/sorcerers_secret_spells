@@ -1,17 +1,17 @@
 /* declaring constants and variables */
-const questionCount = document.querySelector(".number-of-question");
-const nextButton = document.getElementById("next-question-button");
-const yourScore = document.getElementById("your-score");
-const tryAgain = document.getElementById("try-again-button");
+const welcomeScreen = document.querySelector(".welcome-screen");
+const gameRulesText = document.getElementById("game-rules");
 const quizContainer = document.getElementById("quiz-container");
 const questionContainer = document.getElementById("question-container");
 const scoreContainer = document.querySelector(".score-container");
-const timeLeft = document.querySelector(".time-left");
 const beginQuizButton = document.getElementById("begin-quiz-button");
+const questionCount = document.querySelector(".number-of-question");
+const timeLeft = document.querySelector(".time-left");
+const nextButton = document.getElementById("next-question-button");
+const yourScore = document.getElementById("your-score");
+const tryAgain = document.getElementById("try-again-button");
 const submitSpellButton = document.getElementById("submit-spell-button");
 const submitSpellForm = document.getElementById("submit-spell-form");
-const gameRulesText = document.getElementById("game-rules");
-const welcomeScreen = document.querySelector(".welcome-screen");
 let count = 11;
 let countdown;
 let questionNumber;
