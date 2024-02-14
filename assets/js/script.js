@@ -23,9 +23,6 @@ let scoreCount = 0;
 window.onload = function () {
     welcomeScreen.classList.remove("hide");
     quizContainer.classList.add("hide");
-    questionContainer.classList.add("hide");
-    nextButton.classList.add("hide");
-
 };
 /**
  * function to display the quiz container and its content
