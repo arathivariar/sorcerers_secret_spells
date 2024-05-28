@@ -54,7 +54,7 @@ function getRandomQuestions(questions) {
 }
 
 const questionsArray = [];
-fetch('./assets/questions.json')
+fetch('./assets/data/questions.json')
     .then((response) => response.json())
     .then((data) => questionsArray.push(...getRandomQuestions((data))));
 
