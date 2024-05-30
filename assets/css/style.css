@@ -56,6 +56,7 @@ button {
     font-size: 1.33em;
     padding: 0.5em 1.8em;
     border-radius: 0.2em;
+    text-align: center;
 }
 #next-question-button{
   display: flex;
@@ -243,7 +244,7 @@ main {
   height: fit-content;
   width:fit-content;
 }
-#game rules > h3 {
+#game-rules > h3 {
   margin-top: 50px;
 }
 .glow {
@@ -290,8 +291,6 @@ main {
     font-size: 100%;
   }
 }
-
-/* Media Queries for Responsiveness */
 
 @media (max-width: 768px) {
   .container {
@@ -356,6 +355,22 @@ main {
       padding: 20px 25px;
       font-size: 20px;
   }
+}
+
+.welcome-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#game-rules {
+  order: 1;
+}
+
+#begin-quiz-button,
+#submit-spell-button {
+  order: 2;
+  margin-top: 10px;
 }
 
 /* media query: large or landscape phones (576px and up) */
