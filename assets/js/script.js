@@ -12,6 +12,7 @@ const yourScore = document.getElementById("your-score");
 const tryAgain = document.getElementById("try-again-button");
 const submitSpellButton = document.getElementById("submit-spell-button");
 const submitSpellForm = document.getElementById("submit-spell-form");
+
 let count = 11;
 let countdown;
 let questionNumber;
@@ -24,6 +25,7 @@ window.onload = function () {
     welcomeScreen.classList.remove("hide");
     quizContainer.classList.add("hide");
 };
+
 /**
  * function to display the quiz container and its content
  */
@@ -33,6 +35,7 @@ beginQuizButton.addEventListener("click", function () {
     quizContainer.classList.remove("hide");
     initial();
 });
+
 /**
  * function to initially clear the quiz and restart
  */
@@ -58,6 +61,7 @@ fetch('./assets/data/questions.json')
     .then((response) => response.json())
     .then((data) => questionsArray.push(...getRandomQuestions((data))));
 
+
 /**
  * function to display a timer which counts down from 10
 */
@@ -71,6 +75,7 @@ function timerDisplay() {
         }
     }, 1000);
 }
+
 /**
  * function to generate the quiz by building random questions using the questionsArray
  */
@@ -107,6 +112,7 @@ function quizGenerator() {
         questionContainer.appendChild(div);
     }
 }
+
 /**
  * function to check for the correct answer and if right, increment the score
  */
@@ -133,6 +139,7 @@ function checkAnswer(userOption) {
         element.disabled = true;
     });
 }
+
 /**
  * function to try the quiz again by hiding the score container and displaying the quiz container
  */
@@ -143,9 +150,10 @@ tryAgain.addEventListener("click", function () {
 });
 
 /**
- * function to display the next question, increase the questionNumber by 1 and display the final score if there are no more questions remaining 
- */
-
+ * function to display the next question, increase the questionNumber by 1 and display the final score if there are no more questions remaining. 
+*  users can advance to the next question in the quiz without answering the current one, if they choose not to or don't know the answer. 
+*  this intentional feature allows for flexibility in progressing through the quiz.
+*/
 function displayNextQuestion() {
     questionNumber += 1;
 
@@ -163,8 +171,8 @@ function displayNextQuestion() {
         timerDisplay();
     }
 }
-
 nextButton.addEventListener("click", displayNextQuestion);
+
 /**
  * function to display the quiz
  */
@@ -176,6 +184,7 @@ function quizDisplay(questionNumber) {
     });
     quizCards[questionNumber].classList.remove("hide");
 }
+
 /**
  * function to display the form to submit a spell
  */
