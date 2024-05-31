@@ -227,7 +227,7 @@ footer > p{
 main {
     background-color: lightgrey;
 }
-#game-rules {
+#game-rules-container {
   position: fixed;
   width: 500px;
   height: 450px;
@@ -245,7 +245,7 @@ main {
   height: fit-content;
   width:fit-content;
 }
-#game-rules > h3 {
+#game-rules-h2 {
   margin-top: 50px;
 }
 .glow {
