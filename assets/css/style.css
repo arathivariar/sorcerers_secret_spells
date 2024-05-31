@@ -28,6 +28,7 @@ h1 {
     background-color: #000;
     height: fit-content;
     text-align: center;
+    position: fixed;
   }
 button {
     border: none;
