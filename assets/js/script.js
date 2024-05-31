@@ -23,18 +23,18 @@ let scoreCount = 0;
  * function to display the welcome screen when the window is loaded
  */
 window.onload = function () {
-    welcomeScreen.classList.remove("hide");
-    //gameRulesContainer.classList.add("hide");
+    gameRulesContainer.classList.add("hide");
     quizContainer.classList.add("hide");
+    welcomeScreen.classList.remove("hide");
 };
 
 /**
  * function to display the game rules container and its content
  */
 gameRulesButton.addEventListener("click", function () {
-    //gameRulesContainer.classList.remove("hide");
     welcomeScreen.classList.add("hide");
     quizContainer.classList.add("hide");
+    gameRulesContainer.classList.remove("hide");
 });
 
 /**
