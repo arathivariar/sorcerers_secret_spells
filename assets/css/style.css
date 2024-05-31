@@ -28,6 +28,7 @@ h1 {
     background-color: #000;
     height: fit-content;
     text-align: center;
+    text-decoration: none;
   }
 div a {
     text-decoration: none;
