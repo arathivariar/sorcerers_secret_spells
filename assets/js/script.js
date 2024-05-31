@@ -174,6 +174,7 @@ function displayNextQuestion() {
         quizContainer.classList.add("hide");
         welcomeScreen.classList.add("hide");
         gameRulesContainer.classList.add("hide");
+        submitSpellButton.classList.add("hide");
         scoreContainer.classList.remove("hide");
         yourScore.innerHTML = "Congratulations! Your score is " +
             scoreCount + " out of " + questionNumber;

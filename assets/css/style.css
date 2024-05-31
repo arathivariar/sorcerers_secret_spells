@@ -41,8 +41,7 @@ button {
     background-color: #707070;
     font-family: 'butterfly kids', cursive;
 }
-.welcome-screen,
-.score-container
+.welcome-screen
 {
     position: absolute;
     top: 0;
@@ -145,6 +144,25 @@ button {
   background-color: lightgreen;
   color: green;
   border-color: green;
+}
+.score-container{
+  height: 40rem;
+  width: 50%;
+  max-width: 80em;
+  padding: 3.1rem 1.8rem;
+  margin: 0 auto;
+  border-radius: 0.6em;
+  background-image: url(../images/game_over.webp);
+  background-size: cover;
+  background-color: lightgrey;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  animation: fadeInAnimation ease 1s;
 }
 #your-score {
   font-size: 1.5em;
