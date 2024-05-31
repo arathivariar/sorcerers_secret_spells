@@ -124,7 +124,13 @@ JavaScript: No errors were returned when passing through the JSHint validator.
 HTML: No errors were returned when passing through the official W3C validator.    
 
 
-![HTML validation](assets/screenshots/html_validation.png)    
+![Index HTML validation](assets/screenshots/index_html_validation.png)       
+
+
+![Thankyou HTML validation](assets/screenshots/thankyou_html_validation.png)    
+
+
+
 
 # CSS:   
 CSS: No errors were found when passing through the official (Jigsaw) validator.    
