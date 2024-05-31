@@ -71,6 +71,8 @@ button {
 #try-again-button {
   margin-top: 0.9em;
   display: flex;
+  width: 100%;
+  justify-content: center;
 }
 #quiz-container {
   height: 40rem;
@@ -159,8 +161,6 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
-  display: flex;
-  align-items: center;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
