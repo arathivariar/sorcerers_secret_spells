@@ -1,9 +1,10 @@
 /* declaring constants and variables */
 const welcomeScreen = document.querySelector(".welcome-screen");
-const gameRulesText = document.getElementById("game-rules");
+const gameRulesContainer = document.getElementById("game-rules-container");
 const quizContainer = document.getElementById("quiz-container");
 const questionContainer = document.getElementById("question-container");
 const scoreContainer = document.querySelector(".score-container");
+const gameRulesButton = document.getElementById("game-rules-button");
 const beginQuizButton = document.getElementById("begin-quiz-button");
 const questionCount = document.querySelector(".number-of-question");
 const timeLeft = document.querySelector(".time-left");
@@ -23,15 +24,25 @@ let scoreCount = 0;
  */
 window.onload = function () {
     welcomeScreen.classList.remove("hide");
+    gameRulesContainer.classList.add("hide");
     quizContainer.classList.add("hide");
 };
+
+/**
+ * function to display the game rules container and its content
+ */
+gameRulesButton.addEventListener("click", function () {
+    gameRulesContainer.classList.remove("hide");
+    welcomeScreen.classList.add("hide");
+    quizContainer.classList.add("hide");
+});
 
 /**
  * function to display the quiz container and its content
  */
 beginQuizButton.addEventListener("click", function () {
     welcomeScreen.classList.add("hide");
-    gameRulesText.classList.add("hide");
+    gameRulesContainer.classList.add("hide");
     quizContainer.classList.remove("hide");
     initial();
 });

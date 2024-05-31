@@ -53,7 +53,8 @@ button {
 #begin-quiz-button,
 #next-question-button,
 #try-again-button,
-#submit-spell-button
+#submit-spell-button,
+#game-rules-button
 {
     font-size: 1.33em;
     padding: 0.5em 1.8em;
