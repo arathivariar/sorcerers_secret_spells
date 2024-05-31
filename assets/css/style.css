@@ -291,12 +291,9 @@ main {
   #h1{
     font-size: 100%;
   }
-}
-
-@media (max-width: 768px) {
   .container {
-      width: 95%;
-      margin: 10px;
+    width: 95%;
+    margin: 10px;
   }
 
   .header {
@@ -328,6 +325,7 @@ main {
   }
 }
 
+/* media query: for screens up to 480px */
 @media (max-width: 480px) {
   .container {
       width: 100%;
