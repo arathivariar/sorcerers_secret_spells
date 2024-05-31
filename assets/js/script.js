@@ -89,6 +89,7 @@ function timerDisplay() {
 
 /**
  * function to generate the quiz by building random questions using the questionsArray
+ * functional code attributed to https://www.youtube.com/watch?v=WiLTsxjCmWQ
  */
 function quizGenerator() {
     questionsArray.sort(function () {
@@ -126,6 +127,7 @@ function quizGenerator() {
 
 /**
  * function to check for the correct answer and if right, increment the score
+ * functional code attributed to https://www.youtube.com/watch?v=WiLTsxjCmWQ
  */
 function checkAnswer(userOption) {
     let userSolution = userOption.innerText;
