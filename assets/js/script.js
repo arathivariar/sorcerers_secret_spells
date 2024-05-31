@@ -202,6 +202,6 @@ function quizDisplay(questionNumber) {
 submitSpellButton.addEventListener("click",
 function displaySubmitSpellForm() {
     welcomeScreen.classList.add("hide");
-    gameRulesText.classList.add("hide");
+    gameRulesContainer.classList.add("hide");
     submitSpellForm.classList.remove("hide");
   });
