@@ -227,7 +227,7 @@ main {
     background-color: lightgrey;
 }
 #game-rules {
-  position: fixed;
+  position: relative;
   width: 500px;
   height: 450px;
   bottom: 40%;
