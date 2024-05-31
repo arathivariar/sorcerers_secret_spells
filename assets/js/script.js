@@ -24,7 +24,7 @@ let scoreCount = 0;
  */
 window.onload = function () {
     welcomeScreen.classList.remove("hide");
-    gameRulesContainer.classList.add("hide");
+    //gameRulesContainer.classList.add("hide");
     quizContainer.classList.add("hide");
 };
 
@@ -32,7 +32,7 @@ window.onload = function () {
  * function to display the game rules container and its content
  */
 gameRulesButton.addEventListener("click", function () {
-    gameRulesContainer.classList.remove("hide");
+    //gameRulesContainer.classList.remove("hide");
     welcomeScreen.classList.add("hide");
     quizContainer.classList.add("hide");
 });
