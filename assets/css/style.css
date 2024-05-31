@@ -70,6 +70,8 @@ button {
 }
 #try-again-button {
   margin-top: 0.9em;
+  display: flex;
+  align-self: center;
 }
 #quiz-container {
   height: 40rem;
