@@ -172,6 +172,8 @@ function displayNextQuestion() {
 
     if (questionNumber == questionsArray.length) {
         quizContainer.classList.add("hide");
+        welcomeScreen.classList.add("hide");
+        gameRulesContainer.classList.add("hide");
         scoreContainer.classList.remove("hide");
         yourScore.innerHTML = "Congratulations! Your score is " +
             scoreCount + " out of " + questionNumber;
