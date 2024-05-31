@@ -272,7 +272,8 @@ main {
   height: fit-content;
   width:fit-content;
 }
-#game-rules-h2 {
+#game-rules-h2,
+#ready-button {
   margin-top: 50px;
 }
 .glow {

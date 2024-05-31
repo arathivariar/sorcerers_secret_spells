@@ -5,6 +5,7 @@ const quizContainer = document.getElementById("quiz-container");
 const questionContainer = document.getElementById("question-container");
 const scoreContainer = document.querySelector(".score-container");
 const gameRulesButton = document.getElementById("game-rules-button");
+const readyButton = document.getElementById("ready-button");
 const beginQuizButton = document.getElementById("begin-quiz-button");
 const questionCount = document.querySelector(".number-of-question");
 const timeLeft = document.querySelector(".time-left");
