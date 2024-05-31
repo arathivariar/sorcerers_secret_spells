@@ -76,7 +76,18 @@ Ready for some magical fun?
 
 This section displays the quiz. The player can see each question and can select his/her answer from the four options given. There is a timer running for each question. At the end of the quiz, the final score is displayed. The player can retake the quiz, if desired.   
 
-![Begin Quiz](assets/screenshots/begin_quiz.png)  
+![Begin Quiz](assets/screenshots/begin_quiz.png)      
+
+
+![Correct Answer](assets/screenshots/correct_answer.png)      
+
+
+![Wrong Answer](assets/screenshots/wrong_answer.png)       
+
+
+![Final Score](assets/screenshots/final_score.png)       
+
+
 
 # Cast Spell
 
