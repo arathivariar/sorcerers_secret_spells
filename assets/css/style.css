@@ -230,6 +230,7 @@ main {
 }
 #game-rules {
   position: relative;
+  z-index: 0;
   width: 500px;
   height: 450px;
   bottom: 40%;
