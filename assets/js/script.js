@@ -38,6 +38,15 @@ gameRulesButton.addEventListener("click", function () {
 });
 
 /**
+ * function to close the game rules container and its content
+ */
+readyButton.addEventListener("click", function () {
+    quizContainer.classList.add("hide");
+    gameRulesContainer.classList.add("hide");
+    welcomeScreen.classList.remove("hide");
+});
+
+/**
  * function to display the quiz container and its content
  */
 beginQuizButton.addEventListener("click", function () {
